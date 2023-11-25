@@ -6,5 +6,8 @@
 df = pd.read_csv("../data/AA531properties.txt", delimiter='\t', header=None, skiprows=1)
 AA531Dict = df.set_index(0).T.to_dict('list')
 ```
-## 二、肽序列表征         
-### 1、得到行数即三肽数目150行，         
+## 二、肽序列表征           
+### 1、得到行数即三肽数目150行，一个三肽有着三个氨基酸，一个氨基酸有着531个生理生化，故而一个三肽有着3*531个特征数值 
+```python3
+
+```
