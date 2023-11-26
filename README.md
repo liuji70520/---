@@ -32,4 +32,7 @@ for lineNum in range(numberOFlines):
     returnMat[lineNum,:] = np.array(feaVec)
     lineNum += 1
 ```
-
+# 运行程序AA531Coding.py实现以AA531表征序列。在命令行指定ACE抑制剂三肽序列文件名、AA531属性文件名、序列长度、输出文件名。
+```
+python3 AA531Coding.py ACEtriPeptidesSequencesActivities.txt AA531properties.txt 3 result.txt
+```
