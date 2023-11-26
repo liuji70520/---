@@ -1,4 +1,5 @@
-# 以下为主要步骤代码解析
+# 以下为主要步骤代码解析,知识点请移步[here](https://github.com/ZhijunBioinf/Pattern-Recognition-and-Prediction/blob/master/Lab5_PeptideSequencesCoding/sequence_coding2.md),具体源码与jupyter notebook实现请查看[AA531coding.py](https://github.com/liuji70520/PeptideSequencesCoding/blob/main/AA531coding.py)和[AA531coding.ipynb](https://github.com/liuji70520/PeptideSequencesCoding/blob/main/AA531coding.ipynb)
+
 # 编程实现肽序列的AA531(531 properties of Amino Acids)特征表征/数值化
 最终目的是将每一个三肽相关的特征转换为数值矩阵，所以得先将每一个氨基酸对应的生理生化指标提取出来。其中用数字标签来表示对应的多肽
 ## 一、将AA531properties.txt做成字典  
@@ -31,4 +32,4 @@ for lineNum in range(numberOFlines):
     returnMat[lineNum,:] = np.array(feaVec)
     lineNum += 1
 ```
-#具体源码与jupyter notebokk实现请查看和
+
